@@ -815,6 +815,7 @@ img {
     line-height: 1.1;
     letter-spacing: 0.01em;
     color: #8E8F99;
+    margin-bottom: 8px;
 }
 
 .form-label-privacy {
@@ -883,11 +884,19 @@ img {
     transition: background-color var(--trasition);
 }
 
+.modal-input:focus-visible {
+    color: var(--primary-brand);
+}
 .modal-input:focus {
-    fill: var(--primary-brand);
+    outline: none;
+    border-color: var(--primary-brand);
 }
 
+.modal-input:focus + .modal-form-icon {
+    fill: var(--primary-brand);
 
+}
+    
 .modal-label {
     margin-bottom: 8px;
 }
