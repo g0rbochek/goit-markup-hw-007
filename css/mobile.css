@@ -501,6 +501,13 @@ img {
 .team-ul {
 	display: flex;
 	justify-content: center;
+	column-gap: 24px;
+	margin-top: 8px;
+}
+
+.team-ul-one {
+	display: flex;
+	justify-content: center;
 	column-gap: 64px;
 	margin-top: 8px;
 }
