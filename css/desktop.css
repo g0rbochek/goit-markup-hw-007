@@ -79,7 +79,7 @@
 	font-weight: 700;
 	color: #2e2f42;
 	padding-top: 24px;
-	padding-bottom: 24px;
+	padding-bottom: 28px;
 	transition: color var(--trasition);
 }
 
@@ -111,7 +111,7 @@
 
 /* HEADER CONTACTS UL ===========================================*/
 .ul-contacts {
-	display: -webkit-box;
+	gap: 40px;
 	margin-left: auto;
 }
 .ul-contacts-item {
