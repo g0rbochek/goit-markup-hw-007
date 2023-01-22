@@ -769,14 +769,14 @@ img {
 	box-shadow: 0 0 0 0.1em #272f39;
 }
 
-/* Checked */
+/* Checked*/
 
 .check__input:checked + .check__box {
 	background-color: var(--primary-brand);
 	background-image: url(/images/sprite/accept.svg);
 }
 
-/* Focused */
+/* Focused*/
 
 .check__input:focus + .check__box {
 	box-shadow: 0 0 0 0.1em var(--primary-brand), 0 0 0 0.2em black;
